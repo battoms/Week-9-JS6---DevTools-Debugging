@@ -12,8 +12,8 @@ function createDeck() {
   
     return deck;
   }
-  
-  // Function to shuffle the deck
+  // This is going great
+  // Function to shuffle my deck
   function shuffleDeck(deck) {
     for (let i = deck.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
